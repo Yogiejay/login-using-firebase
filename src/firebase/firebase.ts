@@ -13,7 +13,7 @@ import {
   }
   
   export const passwordReset = async (email: string) => {
-    return await sendPasswordResetEmail(auth, email);
+    return await sendPasswordResetEmail(auth, email);ss
   }
   
   export const confirmThePasswordReset = async (
